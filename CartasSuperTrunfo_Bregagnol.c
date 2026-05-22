@@ -15,7 +15,9 @@ int populacao1;
 float area1;
 float pib1;
 int pontosTuristicos1;
-
+float densidade1; 
+float pibPerCapita1;
+  
 // Declaração das variáveis para a Carta 2
 char estado2;
 char codigo2[4];
@@ -24,7 +26,9 @@ int populacao2;
 float area2;
 float pib2;
 int pontosTuristicos2;
-
+float densidade2; 
+float pibPerCapita2;
+  
 // Área para entrada de dados 
 // Entrada de dados para a Carta 1
 printf("Olá Mundo, no codespace\n");
@@ -44,6 +48,10 @@ scanf("%f", &pib1);
 printf("Número de Pontos Turísticos:10 ");
 scanf("%d", &pontosTuristicos1);
 
+ // Cálculos da Carta 1
+    densidade1 = (float)populacao1 / area1;
+    pibPerCapita1 = (float)pib1 / populacao1;
+
 // Entrada de dados para a Carta 2
 printf("\nInsira os dados da Carta 2:\n");
 printf("Estado (A-H):Santa Catarina ");
@@ -61,6 +69,10 @@ scanf("%f", &pib2);
 printf("Número de Pontos Turísticos: 42 ");
 scanf("%d", &pontosTuristicos2);
 
+// Cálculos da Carta 2
+    densidade2 = (float)populacao2 / area2;
+    pibPerCapita2 = (float)pib2 / populacao2;  
+
 // Área para exibição dos dados da cidade
 // Exibição dos dados da Carta 1
 printf("\nCarta 1:\n");
@@ -71,6 +83,8 @@ printf("População: %d\n", populacao1);
 printf("Área: %.2f km²\n", area1);
 printf("PIB: %.2f bilhões de reais\n", pib1);
 printf("Número de Pontos Turísticos: %d\n", pontosTuristicos1);
+printf("Densidade Populacional: %.2f hab/km²\n", densidade1);
+printf("PIB per Capita: %.2f\n", pibPerCapita1);
 
 // Exibição dos dados da Carta 2
 printf("\nCarta 2:\n");
@@ -81,6 +95,8 @@ printf("População: %d\n", populacao2);
 printf("Área: %.2f km²\n", area2);
 printf("PIB: %.2f bilhões de reais\n", pib2);
 printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
+printf("Densidade Populacional: %.2f hab/km²\n", densidade2);
+printf("PIB per Capita: %.2f\n", pibPerCapita2);
   
 return 0;
 }
