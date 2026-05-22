@@ -88,7 +88,7 @@ printf("População: %d\n", populacao1);
 printf("Área: %.2f km²\n", area1);
 printf("PIB: %.2f bilhões de reais\n", pib1);
 printf("Número de Pontos Turísticos: %d\n", pontosTuristicos1);
-printf("Densidade Populacional: %.2f hab/km²\n", densidade1);
+printf("Densidade Populacional: %.2f hab/km²\n", densidadePopulacional1);
 printf("PIB per Capita: %.2f\n", pibPerCapita1);
 
 // Exibição dos dados da Carta 2
@@ -100,7 +100,7 @@ printf("População: %d\n", populacao2);
 printf("Área: %.2f km²\n", area2);
 printf("PIB: %.2f bilhões de reais\n", pib2);
 printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
-printf("Densidade Populacional: %.2f hab/km²\n", densidade2);
+printf("Densidade Populacional: %.2f hab/km²\n", densidadePopulacional2);
 printf("PIB per Capita: %.2f\n", pibPerCapita2);
 
 // --- Exibição e Comparação ---
@@ -113,7 +113,7 @@ printf("PIB per Capita: %.2f\n", pibPerCapita2);
     printf("Pontos Turísticos: Carta 1 venceu (%d)\n", pontosTuristicos1 > pontosTuristicos2);
     printf("Densidade Populacional: Carta 1 venceu (%d)\n", densidadePopulacional1 < densidadePopulacional2);
     printf("PIB per Capita: Carta 1 venceu (%d)\n", pibPerCapita1 > pibPerCapita2);
-    printf("Super Poder: Carta 1 venceu (%d)\n", superPoder1 > superpoder2);
+    printf("Super Poder: Carta 1 venceu (%d)\n", superPoder1 > superPoder2);
   
 return 0;
 }
