@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das cartas
@@ -8,8 +9,8 @@ int main() {
 // Área para definição das variáveis para armazenar as propriedades das cidades
 
 // Declaração das variáveis para a Carta 1
-char estado1;
-char codigo1[4];
+char estado1[50];
+char codigo1[50];
 char nomeCidade1[50];
 unsigned long int populacao1;
 float area1;
@@ -18,7 +19,8 @@ int pontosTuristicos1;
 float densidadePopulacional1; 
 float pibPerCapita1;
 float superPoder1;
-  
+}
+Carta
 // Declaração das variáveis para a Carta 2
 char estado2;
 char codigo2[4];
