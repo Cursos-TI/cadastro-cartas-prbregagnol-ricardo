@@ -10,7 +10,10 @@ int main() {
     printf("exemplo de atualização de código\n");
   // Área para entrada de dados
 
-  // Área para exibição dos dados da cidade
+  // Área para exibição dos dados das cidades
+  int n, total;
+  //Acrescentei a variável total;
+
 
 return 0;
 } 
